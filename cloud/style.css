@@ -1,0 +1,25 @@
+:root {
+    --color : rgb(248, 242, 242);
+}
+body {
+    background-color: skyblue;
+}
+.amolazemi-cloud {
+    width: 100px;
+    height: 100px;
+    margin: 100px 200px;
+    background-color: var(--color);
+    border-radius: 50%;
+    box-shadow:
+    -2px 8px 4px -4px gray,
+    65px 2px 0px 0px var(--color),
+    65px 10px 2px -4px gray,
+    128px -3px 0px 0px var(--color),
+    133px 5px 4px -4px gray,
+    32px -57px 0px 0px var(--color),
+    25px -65px 8px -9px gray,
+    100px -44px 0px 0px var(--color),
+    107px -50px 8px -9px gray,
+    150px -50px 0px 0px yellow
+    ;
+}
